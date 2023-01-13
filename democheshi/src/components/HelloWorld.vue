@@ -1,5 +1,6 @@
 <template>
   <div class="hello">
+  <span>新增一行</span></span>
     <div v-for="(item, index) in items" :key="index">
       <div @mouseover="hover(item)">
         <div v-if="item.select == '第二行'"> 
