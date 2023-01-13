@@ -1,9 +1,6 @@
 <template>
   <div class="hello">
-    <span>删除了</span> 
-    <span>删除了</span> 
-    <span>删除了</span> 
-    <span>删除了</span> 
+   
     <div v-for="(item, index) in items" :key="index">
       <div @mouseover="hover(item)">
         <div v-if="item.select == '第二行'"> 
