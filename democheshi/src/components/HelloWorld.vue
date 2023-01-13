@@ -1,6 +1,6 @@
 <template>
   <div class="hello">
-   
+  <li>a-1.0版本</li>
     <div v-for="(item, index) in items" :key="index">
       <div @mouseover="hover(item)">
         <div v-if="item.select == '第二行'"> 
